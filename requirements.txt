@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch --index-url https://download.pytorch.org/whl/cu118  # GPU-enabled PyTorch (CUDA 12.1)
+pillow
+pdf2image
+accelerate  
+qwen_vl_utils
+torchvision
