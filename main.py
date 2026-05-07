@@ -11,6 +11,7 @@ from typing import Optional, List
 from pdf2image import convert_from_bytes
 
 app = FastAPI(
+    
     title="Qwen2VL OCR API",
     description="API for PDF/Image-to-text extraction using Qwen2VL model",
     version="1.1"
